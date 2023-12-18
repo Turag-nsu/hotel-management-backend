@@ -185,13 +185,12 @@ const hotelSchema = mongoose.Schema({
     freeRoomsWithTypes: [
         {
             roomType: String,
-            roomNumber: Number,
+            
         },
     ],
     bookedRoomsWithDates: [
         {
             roomType: String,
-            roomNumber: Number,
             checkInDate: Date,
             checkOutDate: Date,
         },

@@ -17,7 +17,6 @@ const bookingDetailsSchema = new mongoose.Schema({
         bookedRoomsWithDates: [
             {
                 roomType: String,
-                roomNumber: Number,
                 checkInDate: Date,
                 checkOutDate: Date,
             },
